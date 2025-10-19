@@ -2,6 +2,14 @@
 name = "spdlog-telegram"
 version = "0.1.0"
 edition = "2024"
+description = "Sends logs to Telegram, based on spdlog-rs"
+repository = "https://github.com/SpriteOvO/spdlog-telegram"
+license = "MIT OR Apache-2.0"
+keywords = ["spdlog", "log", "logging", "telegram"]
+categories = ["development-tools::debugging"]
+
+[package.metadata.docs.rs]
+all-features = true
 
 [dependencies]
 atomic = "0.5.3"
